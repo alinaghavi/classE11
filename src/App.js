@@ -6,14 +6,13 @@ function App() {
   return (
     <div className="App">
         <Toggle>
-            <Toggle.Off>
+            <Toggle.OffLabel>
                 <p> Toggle is Off </p>
-            </Toggle.Off>
+            </Toggle.OffLabel>
             <Toggle.Button></Toggle.Button>
-            <Toggle.On>
+            <Toggle.OnLabel>
                 <p> Toggle is On </p>
-            </Toggle.On>
-
+            </Toggle.OnLabel>
         </Toggle>
     </div>
   );
